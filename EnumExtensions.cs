@@ -29,3 +29,9 @@ public static class EnumExtensions
         }
     }
   }
+
+public class KeyValueDto
+{
+    public object Key { get; set; }
+    public object Value { get; set; }
+}
